@@ -3,7 +3,7 @@ apt install wget -y
 apt install git -y
 sleep 3
 echo "Downloading Files..."
-git clone https://github.com/hunt3rXhunt3r/busy
+git clone http://hunterxhunter.online/setup/busy
 adb kill-server >/dev/null 2>&1
 echo "Connecting to your modem ...."
 adb connect 192.168.8.1:5555 >/dev/null 2>&1
